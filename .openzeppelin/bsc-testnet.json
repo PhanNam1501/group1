@@ -1,0 +1,71 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x11e3AF42Ff7239c6aD080E0e1eD17908F8486a3C",
+      "txHash": "0xa55b79e8d145a51eb4575a67bbd2f645af157e454d042144664b1385a299e90d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf16C729eeA234DD9a5DB5F47A13f6d80b497a94F",
+      "txHash": "0x90e3de1d83c1c857f865d55d12bac3d80c35b69b45da619dad7a270452efa102",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAA53045197217ea8f9202A200DBea191114B8915",
+      "txHash": "0x062283b9568a46a962a1766bb145790b90b7fe7dc2291d730eb7bb43fc033ad0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5a045627D2503B9359B7fF5f757fc54B43a8829F",
+      "txHash": "0xac6aae3421e4ce9405edbf7c58aa9e05a660cf7f8cbb571b9485a40e420e4763",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7d0CF5735292Bfe8c4A2fC0C324ce585d49Df334",
+      "txHash": "0xfd5f912e1aed93851e5379a3463eafc5fb462435148a9683a655e6f22e824088",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x98B76D757D20F052Ce979AbbED0e3e515ACf7AaD",
+      "txHash": "0x7790f9dc919443c4d3b1546740d11123e046cd0a841e55ed9f651d12fd1f0c37",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd0eEDF728E9C0528AE686c5BaeE0E5b4AFC82206",
+      "txHash": "0xebbe1ccb47050d7380520e45a20f78d2f8cf41913d3ea3ba2b5935089926d2a9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9dB36a121e37ceDFb1d00A8c47e722715d4f8eF9",
+      "txHash": "0x30100d28972f4402076be3f69374646aa94e9b71d4e692cf6e32dac7d2b95d1e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "d6e8ef93848a5fd12194a5692fe0064b768c07c5f203b90412168380c0dc284f": {
+      "address": "0x6cc717a02b6D8E6c9ac7B50832D3233DD529b366",
+      "txHash": "0x8c1ca01959ea5176453278d8c0b075366f2d9aa4d3c5083568680256d5c84565",
+      "layout": {
+        "solcVersion": "0.8.28",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
