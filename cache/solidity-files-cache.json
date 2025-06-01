@@ -1,80 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solmate\\src\\tokens\\ERC20.sol": {
-      "lastModificationDate": 1741019269247,
-      "contentHash": "0c7c7ada139062536af09d69d96d395c",
-      "sourceName": "solmate/src/tokens/ERC20.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solmate\\src\\auth\\Owned.sol": {
-      "lastModificationDate": 1741019269012,
-      "contentHash": "11fec455b72d2743b77d783d6017e1e9",
-      "sourceName": "solmate/src/auth/Owned.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "Owned"
-      ]
-    },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuardTransient.sol": {
       "lastModificationDate": 1741019268715,
       "contentHash": "db37d5c90dcd9aac27faa1c8bb6e57a8",
@@ -112,156 +38,6 @@
       ],
       "artifacts": [
         "ReentrancyGuardTransient"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\weiroll\\contracts\\VM.sol": {
-      "lastModificationDate": 1741019269068,
-      "contentHash": "2d6b9daa9aef1e15511587087f8fa869",
-      "sourceName": "weiroll/contracts/VM.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./CommandBuilder.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.11"
-      ],
-      "artifacts": [
-        "VM"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\clones-with-immutable-args\\Clone.sol": {
-      "lastModificationDate": 1741019267568,
-      "contentHash": "8f796f0dfdfff502d703ce34fa86d8be",
-      "sourceName": "clones-with-immutable-args/Clone.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "Clone"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solady\\src\\utils\\ECDSA.sol": {
-      "lastModificationDate": 1741019268593,
-      "contentHash": "d7e26d6eb5c9bd2308f945909fcd4619",
-      "sourceName": "solady/src/utils/ECDSA.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "ECDSA"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\weiroll\\contracts\\CommandBuilder.sol": {
-      "lastModificationDate": 1741019269064,
-      "contentHash": "86136c032365e2affb3c4b5e150918b7",
-      "sourceName": "weiroll/contracts/CommandBuilder.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.11"
-      ],
-      "artifacts": [
-        "CommandBuilder"
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\utils\\TransientSlot.sol": {
@@ -417,11 +193,11 @@
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1741019268595,
+      "lastModificationDate": 1748223802279,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -451,160 +227,6 @@
       ],
       "artifacts": [
         "Context"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\clones-with-immutable-args\\ClonesWithImmutableArgs.sol": {
-      "lastModificationDate": 1741019267579,
-      "contentHash": "5624015b6b7038f5adbff07268a4d9b7",
-      "sourceName": "clones-with-immutable-args/ClonesWithImmutableArgs.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "ClonesWithImmutableArgs"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solmate\\src\\utils\\SafeTransferLib.sol": {
-      "lastModificationDate": 1741019269207,
-      "contentHash": "1def076970c79ea28c71e0292781d765",
-      "sourceName": "solmate/src/utils/SafeTransferLib.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../tokens/ERC20.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "SafeTransferLib"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solmate\\src\\tokens\\ERC4626.sol": {
-      "lastModificationDate": 1741019269249,
-      "contentHash": "151c7dc40222dd5d7f454aeca081c1c7",
-      "sourceName": "solmate/src/tokens/ERC4626.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../tokens/ERC20.sol",
-        "../utils/SafeTransferLib.sol",
-        "../utils/FixedPointMathLib.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "ERC4626"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\solmate\\src\\utils\\FixedPointMathLib.sol": {
-      "lastModificationDate": 1741019269171,
-      "contentHash": "3945241174f1c8fdcd51c2571f8ec92e",
-      "sourceName": "solmate/src/utils/FixedPointMathLib.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "cancun",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.0"
-      ],
-      "artifacts": [
-        "FixedPointMathLib"
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\contracts\\libraries\\SafeMath.sol": {
@@ -686,7 +308,7 @@
       "contentHash": "0945d6c0e0290d2f3b8a3572d52c2999",
       "sourceName": "contracts/interfaces/ICamelotRouter.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -720,51 +342,12 @@
         "ICamelotRouter"
       ]
     },
-    "D:\\self_learning\\solidity-by-examples\\contracts\\libraries\\UniswapV2Library.sol": {
-      "lastModificationDate": 1742223467608,
-      "contentHash": "60b7790848dc7502e96da79ff64f414c",
-      "sourceName": "contracts/libraries/UniswapV2Library.sol",
-      "solcConfig": {
-        "version": "0.6.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./SafeMath.sol",
-        "../../contract1/interfaces/ICamelotPair.sol"
-      ],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "UniswapV2Library"
-      ]
-    },
     "D:\\self_learning\\solidity-by-examples\\contracts\\interfaces\\IWETH.sol": {
       "lastModificationDate": 1742203184266,
       "contentHash": "066282b2add4d34a23450b209485d030",
       "sourceName": "contracts/interfaces/IWETH.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -796,160 +379,12 @@
         "IWETH"
       ]
     },
-    "D:\\self_learning\\solidity-by-examples\\contract1\\interfaces\\ICamelotFactory.sol": {
-      "lastModificationDate": 1742203161149,
-      "contentHash": "679721e99a9ead86ab335b1763c333f3",
-      "sourceName": "contract1/interfaces/ICamelotFactory.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "ICamelotFactory"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\contract1\\interfaces\\ICamelotPair.sol": {
-      "lastModificationDate": 1742203161149,
-      "contentHash": "fe00b2e52011565855609e6d9d0f9ba0",
-      "sourceName": "contract1/interfaces/ICamelotPair.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "ICamelotPair"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\contract1\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1742203161150,
-      "contentHash": "2290ca2ec74690ed9024d986955ef431",
-      "sourceName": "contract1/interfaces/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\node_modules\\@uniswap\\lib\\contracts\\libraries\\TransferHelper.sol": {
-      "lastModificationDate": 1742223333082,
-      "contentHash": "7fad4038612c5f040ebd746a3e58e0db",
-      "sourceName": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0"
-      ],
-      "artifacts": [
-        "TransferHelper"
-      ]
-    },
     "D:\\self_learning\\solidity-by-examples\\contracts\\interfaces\\IUniswapV2Router01.sol": {
       "lastModificationDate": 1742203184266,
       "contentHash": "1e4ed79f83308ca7503953c08e3b170f",
       "sourceName": "contracts/interfaces/IUniswapV2Router01.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1093,88 +528,12 @@
         "WETH9"
       ]
     },
-    "D:\\self_learning\\solidity-by-examples\\contracts\\Counter.sol": {
-      "lastModificationDate": 1746415521226,
-      "contentHash": "2d22fcbc77f52d956ae56c197a469728",
-      "sourceName": "contracts/Counter.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counter"
-      ]
-    },
-    "D:\\self_learning\\solidity-by-examples\\contracts\\Group1.sol": {
-      "lastModificationDate": 1746640245375,
-      "contentHash": "9b34de850a29139ce08387d47459e51e",
-      "sourceName": "contracts/Group1.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Group1"
-      ]
-    },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1741019268918,
+      "lastModificationDate": 1748223802710,
       "contentHash": "227a6eb2225701c12d9c959b758b6333",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1212,11 +571,11 @@
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1741019269064,
+      "lastModificationDate": 1748223802914,
       "contentHash": "267d92fe4de67b1bdb3302c08f387dbf",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1251,11 +610,11 @@
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1741019268924,
+      "lastModificationDate": 1748223802726,
       "contentHash": "8f19f64d2adadf448840908bbaf431c8",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1288,11 +647,11 @@
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1741019268895,
+      "lastModificationDate": 1748223802681,
       "contentHash": "794db3115001aa372c79326fcfd44b1f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1327,11 +686,11 @@
       ]
     },
     "D:\\self_learning\\solidity-by-examples\\contracts\\SaleCampaign.sol": {
-      "lastModificationDate": 1747019798323,
-      "contentHash": "37faa3d06d6bb52cbce27403424147ec",
+      "lastModificationDate": 1748228308325,
+      "contentHash": "1327a083b584ac30a37b7120e0929b87",
       "sourceName": "contracts/SaleCampaign.sol",
       "solcConfig": {
-        "version": "0.8.20",
+        "version": "0.8.24",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -1362,6 +721,83 @@
       "artifacts": [
         "IGroup1",
         "SaleCampaign"
+      ]
+    },
+    "D:\\self_learning\\solidity-by-examples\\contracts\\CEX.sol": {
+      "lastModificationDate": 1748789710066,
+      "contentHash": "c2a4a5f3b29df2d25aa8264f93a8946b",
+      "sourceName": "contracts/CEX.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "CEX",
+        "INamToken"
+      ]
+    },
+    "D:\\self_learning\\solidity-by-examples\\contracts\\NamToken.sol": {
+      "lastModificationDate": 1748783886221,
+      "contentHash": "75e8bd881dc15ee027070f3bd3903f8c",
+      "sourceName": "contracts/NamToken.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "NamToken"
       ]
     }
   }

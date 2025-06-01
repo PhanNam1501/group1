@@ -11,3 +11,11 @@
 
 #!.yarn/cache
 .pnp.*
+
+cache
+.oppenzepplin
+.vscode
+node_modules
+.yarn
+artifacts
+

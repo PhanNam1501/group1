@@ -9,6 +9,8 @@ async function main() {
 
     const Sales = await hre.ethers.deployContract("SaleCampaign", [Group1.target, 100])
     console.log("Sales deployed to:", Sales.target);
+
+    
 }
 
 main().catch((error) => {
