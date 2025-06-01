@@ -7,6 +7,9 @@ module.exports = {
   solidity: {
     compilers: [
       {
+        version: "0.8.24",
+      },
+      {
         version: "0.8.20",
       },
       {
@@ -31,7 +34,7 @@ module.exports = {
     bscTestnet: {
       url: "https://bsc-testnet-rpc.publicnode.com",
       chainId: 97,
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY_1] : [],
       hardfork: "cancun",
     },
   },

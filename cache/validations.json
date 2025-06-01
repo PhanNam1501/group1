@@ -2,6 +2,2007 @@
   "version": "3.4",
   "log": [
     {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "dc2a1be4d65848fd9c9896d36738cdaa876ceb17b689e54b8b6604c75fd09c02",
+          "withoutMetadata": "fa9e7bee41922d0e0ed7beeeee8af0ca271ba5e59d5ebe6bc9cf8464ca7a8f0b",
+          "linkedWithoutMetadata": "fa9e7bee41922d0e0ed7beeeee8af0ca271ba5e59d5ebe6bc9cf8464ca7a8f0b"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "()",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)",
+          "withdraw()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "cee6378bbf831ae004525eee05e53b48a9e8b75fc3b6cc7bf9303ca9f587d185",
+          "withoutMetadata": "5ee46c2face8aafb4311af3dcbfbcc7158a116ff4428d8537b28b4a0af5854c4",
+          "linkedWithoutMetadata": "5ee46c2face8aafb4311af3dcbfbcc7158a116ff4428d8537b28b4a0af5854c4"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "026f2eb08f61b710ab524a746838606a710c7dd2da6d5890901554cc0f81247f",
+          "withoutMetadata": "33b86d929cc6876714b0960b4cb81aa05fa5af7238200f329849c913b566dd07",
+          "linkedWithoutMetadata": "33b86d929cc6876714b0960b4cb81aa05fa5af7238200f329849c913b566dd07"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "29ebd5ccdec2f90131d9500bbfbf9a710514b1fc48c560a7353c9209cd37148a",
+          "withoutMetadata": "45ece2b020a7c509238e1b7336bd26795cea44a2293feae8295f5ecb47687db7",
+          "linkedWithoutMetadata": "45ece2b020a7c509238e1b7336bd26795cea44a2293feae8295f5ecb47687db7"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "d8e208a42662e4244e0006b2fe8f1cba731c0a63ff608e26dafbcd6c132d8525",
+          "withoutMetadata": "7bc0f032fd5bed5e70ea1d48929fe550341420383bb9ae6f9744d45be08cf427",
+          "linkedWithoutMetadata": "7bc0f032fd5bed5e70ea1d48929fe550341420383bb9ae6f9744d45be08cf427"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "29ebd5ccdec2f90131d9500bbfbf9a710514b1fc48c560a7353c9209cd37148a",
+          "withoutMetadata": "45ece2b020a7c509238e1b7336bd26795cea44a2293feae8295f5ecb47687db7",
+          "linkedWithoutMetadata": "45ece2b020a7c509238e1b7336bd26795cea44a2293feae8295f5ecb47687db7"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)20",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)20": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC1155Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:113",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:9",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC721Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:55",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/ERC20.sol:ERC20": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:29",
+        "inherit": [
+          "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors",
+          "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata",
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "name()",
+          "symbol()",
+          "decimals()",
+          "totalSupply()",
+          "balanceOf(address)",
+          "transfer(address,uint256)",
+          "allowance(address,address)",
+          "approve(address,uint256)",
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "ERC20",
+            "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:45"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_balances",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:30"
+            },
+            {
+              "label": "_allowances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:32"
+            },
+            {
+              "label": "_totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:34"
+            },
+            {
+              "label": "_name",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:36"
+            },
+            {
+              "label": "_symbol",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:37"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+              "label": "mapping(address => mapping(address => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol:9",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "totalSupply()",
+          "balanceOf(address)",
+          "transfer(address,uint256)",
+          "allowance(address,address)",
+          "approve(address,uint256)",
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol:11",
+        "inherit": [
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20"
+        ],
+        "libraries": [],
+        "methods": [
+          "name()",
+          "symbol()",
+          "decimals()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/utils/Context.sol:Context": {
+        "src": "@openzeppelin\\contracts\\utils\\Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:CEX": {
+        "src": "contracts\\CEX.sol:9",
+        "version": {
+          "withMetadata": "72d2bf7a145e0012148ac5a4e6e5074c183619c404e3ad12a4d1f04a4fcb35d3",
+          "withoutMetadata": "992e2d0c94a075ebae5faa33734d4a0fe341c07b29420bec5e6abb0fba5b710f",
+          "linkedWithoutMetadata": "992e2d0c94a075ebae5faa33734d4a0fe341c07b29420bec5e6abb0fba5b710f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "CEX",
+            "src": "contracts\\CEX.sol:19"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:12"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(INamToken)806",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:14"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:15"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_address",
+              "contract": "CEX",
+              "src": "contracts\\CEX.sol:17"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(INamToken)806": {
+              "label": "contract INamToken",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/CEX.sol:INamToken": {
+        "src": "contracts\\CEX.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/NamToken.sol:NamToken": {
+        "src": "contracts\\NamToken.sol:6",
+        "version": {
+          "withMetadata": "c91facd50c86b7464b9a43d5e5f775e0666691324172f2f02299baecc5973d3f",
+          "withoutMetadata": "0465320b10603af34f84105abea19ebc0ed06ac6df80ac6148c9fa378adbd0c2",
+          "linkedWithoutMetadata": "0465320b10603af34f84105abea19ebc0ed06ac6df80ac6148c9fa378adbd0c2"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/token/ERC20/ERC20.sol:ERC20",
+          "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors",
+          "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata",
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "NamToken",
+            "src": "contracts\\NamToken.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_balances",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:30"
+            },
+            {
+              "label": "_allowances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:32"
+            },
+            {
+              "label": "_totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:34"
+            },
+            {
+              "label": "_name",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:36"
+            },
+            {
+              "label": "_symbol",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:37"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+              "label": "mapping(address => mapping(address => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC1155Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:113",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:9",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC721Errors": {
+        "src": "@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol:55",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/ERC20.sol:ERC20": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:29",
+        "inherit": [
+          "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors",
+          "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata",
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "name()",
+          "symbol()",
+          "decimals()",
+          "totalSupply()",
+          "balanceOf(address)",
+          "transfer(address,uint256)",
+          "allowance(address,address)",
+          "approve(address,uint256)",
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "ERC20",
+            "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:45"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_balances",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:30"
+            },
+            {
+              "label": "_allowances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:32"
+            },
+            {
+              "label": "_totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:34"
+            },
+            {
+              "label": "_name",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:36"
+            },
+            {
+              "label": "_symbol",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:37"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+              "label": "mapping(address => mapping(address => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol:9",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "totalSupply()",
+          "balanceOf(address)",
+          "transfer(address,uint256)",
+          "allowance(address,address)",
+          "approve(address,uint256)",
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata": {
+        "src": "@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol:11",
+        "inherit": [
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20"
+        ],
+        "libraries": [],
+        "methods": [
+          "name()",
+          "symbol()",
+          "decimals()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "@openzeppelin/contracts/utils/Context.sol:Context": {
+        "src": "@openzeppelin\\contracts\\utils\\Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/Group1.sol:Group1": {
+        "src": "contracts\\Group1.sol:6",
+        "version": {
+          "withMetadata": "6c50358313cc4eb53ced54325996f2298094a17b58ab2b8aca8deb97b93c3328",
+          "withoutMetadata": "e423151eb87ad1eee88d261c9be8460e4008788a27554e027eed94e53aed83e1",
+          "linkedWithoutMetadata": "e423151eb87ad1eee88d261c9be8460e4008788a27554e027eed94e53aed83e1"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/token/ERC20/ERC20.sol:ERC20",
+          "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors",
+          "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata",
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Group1",
+            "src": "contracts\\Group1.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_balances",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:30"
+            },
+            {
+              "label": "_allowances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:32"
+            },
+            {
+              "label": "_totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:34"
+            },
+            {
+              "label": "_name",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:36"
+            },
+            {
+              "label": "_symbol",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:37"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+              "label": "mapping(address => mapping(address => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/Lab3.sol:TuanNamToken": {
+        "src": "contracts\\Lab3.sol:6",
+        "version": {
+          "withMetadata": "f5123af0ede8fbf00adf98ce7b8995f56599fc11b3d5a01e44764f78e28792e8",
+          "withoutMetadata": "68319bc2d96c7bad448550982df912a2b302a5aa2aa843d8690cbd2b70108265",
+          "linkedWithoutMetadata": "68319bc2d96c7bad448550982df912a2b302a5aa2aa843d8690cbd2b70108265"
+        },
+        "inherit": [
+          "@openzeppelin/contracts/token/ERC20/ERC20.sol:ERC20",
+          "@openzeppelin/contracts/interfaces/draft-IERC6093.sol:IERC20Errors",
+          "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol:IERC20Metadata",
+          "@openzeppelin/contracts/token/ERC20/IERC20.sol:IERC20",
+          "@openzeppelin/contracts/utils/Context.sol:Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "()",
+          "()",
+          "getCurrentTokenPrice()",
+          "buyToken()",
+          "sellToken(uint256)",
+          "withdraw()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "TuanNamToken",
+            "src": "contracts\\Lab3.sol:13"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_balances",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:30"
+            },
+            {
+              "label": "_allowances",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:32"
+            },
+            {
+              "label": "_totalSupply",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:34"
+            },
+            {
+              "label": "_name",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:36"
+            },
+            {
+              "label": "_symbol",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_string_storage",
+              "contract": "ERC20",
+              "src": "@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol:37"
+            },
+            {
+              "label": "deploymentTime",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_uint256",
+              "contract": "TuanNamToken",
+              "src": "contracts\\Lab3.sol:9"
+            },
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "6",
+              "type": "t_address",
+              "contract": "TuanNamToken",
+              "src": "contracts\\Lab3.sol:11"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+              "label": "mapping(address => mapping(address => uint256))",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/SaleCampaign.sol:IGroup1": {
+        "src": "contracts\\SaleCampaign.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/SaleCampaign.sol:SaleCampaign": {
+        "src": "contracts\\SaleCampaign.sol:8",
+        "version": {
+          "withMetadata": "b7af38d27db92303ac86222d5c83350230984a102c07f92d87e034f2c34a717c",
+          "withoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd",
+          "linkedWithoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "buyTokens(uint256)",
+          "getTokenPrice()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "SaleCampaign",
+            "src": "contracts\\SaleCampaign.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:9"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(IGroup1)1068",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:10"
+            },
+            {
+              "label": "saleStartTime",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:11"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:12"
+            },
+            {
+              "label": "maxSaleAmount",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(IGroup1)1068": {
+              "label": "contract IGroup1",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/interfaces/ICamelotRouter.sol:ICamelotRouter": {
+        "src": "contracts\\interfaces\\ICamelotRouter.sol:5",
+        "inherit": [
+          "contracts/interfaces/IUniswapV2Router01.sol:IUniswapV2Router01"
+        ],
+        "libraries": [],
+        "methods": [
+          "removeLiquidityETHSupportingFeeOnTransferTokens(address,uint256,uint256,uint256,address,uint256)",
+          "removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(address,uint256,uint256,uint256,address,uint256,bool,uint8,bytes32,bytes32)",
+          "swapExactTokensForTokensSupportingFeeOnTransferTokens(uint256,uint256,address[],address,address,uint256)",
+          "swapExactETHForTokensSupportingFeeOnTransferTokens(uint256,address[],address,address,uint256)",
+          "swapExactTokensForETHSupportingFeeOnTransferTokens(uint256,uint256,address[],address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/interfaces/IUniswapV2Router01.sol:IUniswapV2Router01": {
+        "src": "contracts\\interfaces\\IUniswapV2Router01.sol:3",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "factory()",
+          "WETH()",
+          "addLiquidity(address,address,uint256,uint256,uint256,uint256,address,uint256)",
+          "addLiquidityETH(address,uint256,uint256,uint256,address,uint256)",
+          "removeLiquidity(address,address,uint256,uint256,uint256,address,uint256)",
+          "removeLiquidityETH(address,uint256,uint256,uint256,address,uint256)",
+          "removeLiquidityWithPermit(address,address,uint256,uint256,uint256,address,uint256,bool,uint8,bytes32,bytes32)",
+          "removeLiquidityETHWithPermit(address,uint256,uint256,uint256,address,uint256,bool,uint8,bytes32,bytes32)",
+          "quote(uint256,uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      },
+      "contracts/interfaces/IWETH.sol:IWETH": {
+        "src": "contracts\\interfaces\\IWETH.sol:3",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "deposit()",
+          "transfer(address,uint256)",
+          "withdraw(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.24"
+      }
+    },
+    {
+      "contracts/SaleCampaign.sol:IGroup1": {
+        "src": "contracts\\SaleCampaign.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      },
+      "contracts/SaleCampaign.sol:SaleCampaign": {
+        "src": "contracts\\SaleCampaign.sol:8",
+        "version": {
+          "withMetadata": "21f86aab37f3738d7ce414cd6b01015c76b40b3391f87d4088efc9bfcca62456",
+          "withoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd",
+          "linkedWithoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "buyTokens(uint256)",
+          "getTokenPrice()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "SaleCampaign",
+            "src": "contracts\\SaleCampaign.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:9"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(IGroup1)13",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:10"
+            },
+            {
+              "label": "saleStartTime",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:11"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:12"
+            },
+            {
+              "label": "maxSaleAmount",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(IGroup1)13": {
+              "label": "contract IGroup1",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      }
+    },
+    {
+      "contracts/SaleCampaign.sol:IGroup1": {
+        "src": "contracts\\SaleCampaign.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      },
+      "contracts/SaleCampaign.sol:SaleCampaign": {
+        "src": "contracts\\SaleCampaign.sol:8",
+        "version": {
+          "withMetadata": "cafd80fc860438ecd486edd1267b86b3610cd3c5a7257f56c4fe2b2b50e5be57",
+          "withoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd",
+          "linkedWithoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "buyTokens(uint256)",
+          "getTokenPrice()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "SaleCampaign",
+            "src": "contracts\\SaleCampaign.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:9"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(IGroup1)13",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:10"
+            },
+            {
+              "label": "saleStartTime",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:11"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:12"
+            },
+            {
+              "label": "maxSaleAmount",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(IGroup1)13": {
+              "label": "contract IGroup1",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      }
+    },
+    {
+      "contracts/SaleCampaign.sol:IGroup1": {
+        "src": "contracts\\SaleCampaign.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transferFrom(address,address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      },
+      "contracts/SaleCampaign.sol:SaleCampaign": {
+        "src": "contracts\\SaleCampaign.sol:8",
+        "version": {
+          "withMetadata": "21f86aab37f3738d7ce414cd6b01015c76b40b3391f87d4088efc9bfcca62456",
+          "withoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd",
+          "linkedWithoutMetadata": "1ea006495b0fb0e60fd33b11e65116158d03eb2539f225ca37b6f56689c93bcd"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address,uint256)",
+          "buyTokens(uint256)",
+          "getTokenPrice()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "SaleCampaign",
+            "src": "contracts\\SaleCampaign.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:9"
+            },
+            {
+              "label": "token",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(IGroup1)13",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:10"
+            },
+            {
+              "label": "saleStartTime",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:11"
+            },
+            {
+              "label": "totalSold",
+              "offset": 0,
+              "slot": "3",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:12"
+            },
+            {
+              "label": "maxSaleAmount",
+              "offset": 0,
+              "slot": "4",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:13"
+            },
+            {
+              "label": "totalSupply",
+              "offset": 0,
+              "slot": "5",
+              "type": "t_uint256",
+              "contract": "SaleCampaign",
+              "src": "contracts\\SaleCampaign.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_contract(IGroup1)13": {
+              "label": "contract IGroup1",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.20"
+      }
+    },
+    {
       "contracts/SaleCampaign.sol:IGroup1": {
         "src": "contracts\\SaleCampaign.sol:4",
         "inherit": [],

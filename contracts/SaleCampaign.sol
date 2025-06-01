@@ -21,7 +21,6 @@ contract SaleCampaign {
         maxSaleAmount = _totalSupply / 2;
     }
 
-
     function buyTokens(uint256 amount) external payable {
         require(block.timestamp <= saleStartTime + 30 days, "Sale ended");
         require(amount + totalSold <= maxSaleAmount, "Over maxSaleAmount");
